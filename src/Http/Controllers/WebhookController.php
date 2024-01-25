@@ -105,6 +105,6 @@ class WebhookController extends Controller
      */
     public function missingMethod(array $parameters = [])
     {
-        return new Response;
+        return new Response();
     }
 }
